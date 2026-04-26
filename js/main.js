@@ -50,11 +50,8 @@ document.addEventListener('langchange', () => { charIndex = 0; deleting = false;
 /* ===== SCROLL REVEAL ===== */
 const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-}, { threshold: 0.12 });
+}, { threshold: 0.08 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.project-card, #contact .section-container, #projects .section-container').forEach(el => {
-    el.classList.add('reveal');
-    observer.observe(el);
-  });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 });
