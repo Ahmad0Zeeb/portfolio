@@ -1,0 +1,6 @@
+# Local AI context — do not push
+AI_CONTEXT.md
+
+# OS files
+.DS_Store
+Thumbs.db
