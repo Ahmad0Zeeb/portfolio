@@ -35,9 +35,9 @@ const qa = [
     sv: "Ja! Ahmad söker aktivt möjligheter inom IT, cybersäkerhet eller mjukvaruutveckling. Hör gärna av dig."
   },
   {
-    patterns: ['project', 'built', 'portfolio', 'github', 'projekt', 'byggt'],
-    en: "Ahmad has built several projects during his studies. Check the Projects section on the site for details, with more being added soon.",
-    sv: "Ahmad har byggt flera projekt under sin utbildning. Se projektsektionen på sidan för detaljer — fler tillkommer snart."
+    patterns: ['project', 'built', 'portfolio', 'github', 'projekt', 'byggt', 'stork'],
+    en: "Ahmad built Stork Market — a full-stack multi-vendor e-commerce marketplace using Next.js, TypeScript, Prisma, MySQL, and NextAuth.js with Google OAuth. It supports shop registration, product listings, order management, and reviews. More projects are being added to the portfolio.",
+    sv: "Ahmad byggde Stork Market — en fullstack e-handelsmarknadsplats med Next.js, TypeScript, Prisma, MySQL och NextAuth.js med Google OAuth. Den stöder butiksregistrering, produktlistningar, orderhantering och recensioner. Fler projekt läggs till i portfolion."
   },
   {
     patterns: ['cybersecurity', 'security', 'säkerhet', 'cyber'],

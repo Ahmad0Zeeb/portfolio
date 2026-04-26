@@ -49,6 +49,9 @@ const translations = {
     "projects.subtitle":    "Things I've built",
     "projects.coming_soon": "More projects coming soon.",
 
+    "proj.stork.title": "Stork Market",
+    "proj.stork.desc":  "A full-stack multi-vendor e-commerce marketplace. Shop owners can register, list products with categories and pricing, and manage orders. Customers can browse, review shops and products, and place orders — all secured with Google OAuth and role-based access control.",
+
     "contact.title":        "Get In Touch",
     "contact.subtitle":     "Have an opportunity or question? Send me a message.",
     "contact.name":         "Your Name",
@@ -122,6 +125,9 @@ const translations = {
     "projects.title":       "Projekt",
     "projects.subtitle":    "Saker jag har byggt",
     "projects.coming_soon": "Fler projekt kommer snart.",
+
+    "proj.stork.title": "Stork Market",
+    "proj.stork.desc":  "En fullstack e-handelsmarknadsplats med flera säljare. Butiksägare kan registrera sig, lista produkter med kategorier och priser, och hantera beställningar. Kunder kan bläddra bland butiker och produkter, lämna recensioner och lägga beställningar — skyddat med Google OAuth och rollbaserad åtkomstkontroll.",
 
     "contact.title":        "Kontakta mig",
     "contact.subtitle":     "Har du ett erbjudande eller en fråga? Skicka ett meddelande.",
