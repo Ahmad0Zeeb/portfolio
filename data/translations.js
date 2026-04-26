@@ -2,7 +2,7 @@ const translations = {
   en: {
     "hero.greeting":        "Hi, I'm",
     "hero.tagline_prefix":  "I'm a",
-    "hero.bio":             "IT specialist with a Bachelor's in Computer Science, passionate about cybersecurity and building reliable systems.",
+    "hero.bio":             "Driven and curious IT specialist with a Bachelor's in Computer Science and hands-on experience in IT support, programming, and security-related tasks. Passionate about cybersecurity and helping protect organizations from cyber threats.",
     "hero.cta_profile":     "View My Profile",
     "hero.cta_chat":        "Chat with me",
 
@@ -14,9 +14,36 @@ const translations = {
     "drawer.completed":     "Completed",
     "drawer.in_progress":   "In Progress",
     "drawer.download_cv":   "Download CV",
-    "drawer.atea_1":        "Windows installations and factory resets",
-    "drawer.atea_2":        "IT equipment preparation and maintenance",
-    "drawer.atea_3":        "End-user support with high service quality",
+
+    "edu.subtitle":         "Academic background and certifications",
+    "edu.courses_label":    "Selected courses",
+    "edu.courses":          "Computer Security · Computer Networks · Operating Systems · Software Testing · Web Programming · Database Technology · Algorithms & Advanced Data Structures",
+
+    "exp.subtitle":         "Work history and technical skills",
+    "exp.it_title":         "IT Work Experience",
+    "exp.other_title":      "Other Work Experience",
+    "exp.skills_os":        "OS & Software",
+    "exp.skills_net":       "Networking & Security",
+    "exp.skills_prog":      "Programming",
+    "exp.skills_hw":        "Hardware",
+    "exp.skills_soft":      "Soft Skills",
+    "exp.license":          "Driver's License",
+    "exp.license_b":        "Class B",
+
+    "atea.title":           "IT Support Technician",
+    "atea.place":           "Atea AB, Växjö",
+    "atea.date":            "Feb 2023 – Aug 2023",
+    "atea.1":               "Performed Windows OS installations and factory resets",
+    "atea.2":               "Prepared, labeled, and reset IT equipment (computers and mobile devices)",
+    "atea.3":               "Documented repairs and contributed to efficient workflow in the ticket management system",
+    "atea.4":               "Supported end users in their daily work with high service quality",
+
+    "care.title":           "Care Assistant",
+    "care.place":           "Hässleholms kommun · Humana AB (Växjö) · Eslövs kommun",
+    "care.date":            "2022 – 2026",
+    "care.1":               "Developed strong sense of responsibility and ability to quickly adapt to different care needs",
+    "care.2":               "Worked with dementia care, personal care, and medication management",
+    "care.3":               "Experience working morning, day, and night shifts — high flexibility",
 
     "projects.title":       "Projects",
     "projects.subtitle":    "Things I've built",
@@ -37,21 +64,19 @@ const translations = {
 
     "footer.copy":          "© 2025 Ahmad Zeeb. All rights reserved.",
     "footer.back_top":      "Back to top ↑",
+    "footer.back_home":     "Back to home ↩",
 
     "nav.lang":             "SV",
     "nav.chat":             "Chat with me",
     "nav.education":        "Education",
     "nav.experience":       "Experience",
     "nav.projects":         "Projects",
-    "edu.subtitle":         "Academic background and certifications",
-    "exp.subtitle":         "Work history and technical skills",
-    "footer.back_home":     "Back to home ↩",
   },
 
   sv: {
     "hero.greeting":        "Hej, jag heter",
     "hero.tagline_prefix":  "Jag är",
-    "hero.bio":             "IT-specialist med kandidatexamen i datateknik, brinner för cybersäkerhet och att bygga pålitliga system.",
+    "hero.bio":             "Drivande och nyfiken IT-specialist med en kandidatexamen i datavetenskap och praktisk erfarenhet inom IT-support, programmering och säkerhetsrelaterade uppgifter. Brinner för att utvecklas inom cybersäkerhet och bidra till att skydda organisationer mot cyberhot.",
     "hero.cta_profile":     "Visa min profil",
     "hero.cta_chat":        "Chatta med mig",
 
@@ -63,9 +88,36 @@ const translations = {
     "drawer.completed":     "Avslutad",
     "drawer.in_progress":   "Pågående",
     "drawer.download_cv":   "Ladda ner CV",
-    "drawer.atea_1":        "Windows-installationer och fabriksåterställningar",
-    "drawer.atea_2":        "Förberedelse och underhåll av IT-utrustning",
-    "drawer.atea_3":        "Slutanvändarsupport med hög servicekvalitet",
+
+    "edu.subtitle":         "Akademisk bakgrund och certifieringar",
+    "edu.courses_label":    "Utvalda kurser",
+    "edu.courses":          "Datorsäkerhet · Datornätverk · Operativsystem · Programvarutestning · Webbprogrammering · Databasteknik · Algoritmer och avancerade datastrukturer",
+
+    "exp.subtitle":         "Arbetshistorik och tekniska kompetenser",
+    "exp.it_title":         "IT-arbetslivserfarenhet",
+    "exp.other_title":      "Övrig arbetslivserfarenhet",
+    "exp.skills_os":        "Operativsystem & Programvara",
+    "exp.skills_net":       "Nätverk & Säkerhet",
+    "exp.skills_prog":      "Programmering",
+    "exp.skills_hw":        "Hårdvaruhantering",
+    "exp.skills_soft":      "Mjuka färdigheter",
+    "exp.license":          "Körkort",
+    "exp.license_b":        "Klass B",
+
+    "atea.title":           "IT-supporttekniker",
+    "atea.place":           "Atea AB, Växjö",
+    "atea.date":            "Feb 2023 – Aug 2023",
+    "atea.1":               "Genomförde installationer och fabriksåterställningar av Windows-operativsystem",
+    "atea.2":               "Förberedde, märkte och återställde IT-utrustning som datorer och mobila enheter",
+    "atea.3":               "Dokumenterade reparationer och bidrog till ett effektivt arbetsflöde i ärendehanteringssystemet",
+    "atea.4":               "Stöttade slutanvändare i deras dagliga arbete med hög servicenivå",
+
+    "care.title":           "Vårdbiträde",
+    "care.place":           "Hässleholms kommun · Humana AB (Växjö) · Eslövs kommun",
+    "care.date":            "2022 – 2026",
+    "care.1":               "Utvecklat ett starkt ansvarstagande och förmåga att snabbt anpassa mig efter olika vårdbehov",
+    "care.2":               "Arbetat med demensvård, personlig omvårdnad och medicinhantering",
+    "care.3":               "Erfarenhet av att arbeta morgon-, dag- och nattskift — hög flexibilitet",
 
     "projects.title":       "Projekt",
     "projects.subtitle":    "Saker jag har byggt",
@@ -86,14 +138,12 @@ const translations = {
 
     "footer.copy":          "© 2025 Ahmad Zeeb. Alla rättigheter förbehållna.",
     "footer.back_top":      "Tillbaka till toppen ↑",
+    "footer.back_home":     "Tillbaka till startsidan ↩",
 
     "nav.lang":             "EN",
     "nav.chat":             "Chatta med mig",
     "nav.education":        "Utbildning",
     "nav.experience":       "Erfarenhet",
     "nav.projects":         "Projekt",
-    "edu.subtitle":         "Akademisk bakgrund och certifieringar",
-    "exp.subtitle":         "Arbetshistorik och tekniska kompetenser",
-    "footer.back_home":     "Tillbaka till startsidan ↩",
   }
 };

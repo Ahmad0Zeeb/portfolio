@@ -342,6 +342,53 @@ ul { list-style: none; }
   margin-bottom: 0.3rem;
 }
 
+/* ===== COURSES ===== */
+.info-card-courses-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-top: 0.85rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.info-card-courses {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* ===== SKILL CATEGORIES ===== */
+.skill-category {
+  margin-bottom: 1.25rem;
+}
+
+.skill-category-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== LICENSE ROW ===== */
+.license-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.license-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* ===== EMPTY STATE ===== */
 .empty-state {
   text-align: center;

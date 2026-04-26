@@ -1,8 +1,8 @@
 const qa = [
   {
-    patterns: ['skill', 'know', 'can you', 'technology', 'tech', 'programm', 'language', 'kompetens', 'kan du', 'teknik'],
-    en: "Ahmad's skills include Python, Java, SQL, Flutter, Microsoft 365, Windows, Networking, and Cybersecurity.",
-    sv: "Ahmads kompetenser inkluderar Python, Java, SQL, Flutter, Microsoft 365, Windows, Nätverk och Cybersäkerhet."
+    patterns: ['skill', 'know', 'can you', 'technology', 'tech', 'programm', 'kompetens', 'kan du', 'teknik'],
+    en: "Ahmad's skills span several areas — Programming: Python, Java, SQL, Flutter. OS & Software: Microsoft 365, Windows configuration. Networking & Security: network setup and troubleshooting, security fundamentals. Hardware: IT equipment preparation and maintenance. Soft skills: communication, organization, time management, teamwork.",
+    sv: "Ahmads kompetenser sträcker sig över flera områden — Programmering: Python, Java, SQL, Flutter. OS & Programvara: Microsoft 365, Windows. Nätverk & Säkerhet: nätverkskonfiguration och felsökning, säkerhetsgrunder. Hårdvara: förberedelse och underhåll av IT-utrustning. Mjuka färdigheter: kommunikation, organisation, tidshantering, lagarbete."
   },
   {
     patterns: ['education', 'study', 'degree', 'university', 'school', 'utbildning', 'studer', 'examen', 'universitet'],
@@ -11,8 +11,8 @@ const qa = [
   },
   {
     patterns: ['experience', 'work', 'job', 'erfarenhet', 'arbete', 'jobbat', 'anställ'],
-    en: "Ahmad worked as an IT Support Technician at Atea AB in Växjö (Feb 2023 – Aug 2023), handling Windows installations, IT equipment preparation, and end-user support.",
-    sv: "Ahmad arbetade som IT-supporttekniker på Atea AB i Växjö (feb 2023 – aug 2023) med Windows-installationer, IT-utrustning och slutanvändarsupport."
+    en: "Ahmad has two work backgrounds: IT Support Technician at Atea AB, Växjö (Feb 2023 – Aug 2023), handling Windows installations, IT equipment, ticket management, and end-user support. He also worked as a Care Assistant (2022–2026) across Hässleholms kommun, Humana AB, and Eslövs kommun — demonstrating strong responsibility and flexibility.",
+    sv: "Ahmad har två arbetslivsbakgrunder: IT-supporttekniker på Atea AB i Växjö (feb 2023 – aug 2023) med Windows-installationer, IT-utrustning, ärendehantering och slutanvändarsupport. Han har även arbetat som vårdbiträde (2022–2026) inom Hässleholms kommun, Humana AB och Eslövs kommun — vilket visar starkt ansvarstagande och flexibilitet."
   },
   {
     patterns: ['certif', 'ccna', 'md-102', 'cisco', 'microsoft', 'endpoint'],
