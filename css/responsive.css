@@ -1,0 +1,26 @@
+/* ===== TABLET ===== */
+@media (max-width: 768px) {
+  #navbar { padding: 0 1rem; }
+
+  .hero-buttons { flex-direction: column; align-items: center; }
+  .hero-buttons button { width: 100%; max-width: 280px; }
+
+  #side-drawer { width: 100vw; }
+
+  .projects-grid { grid-template-columns: 1fr; }
+
+  #footer { flex-direction: column; text-align: center; }
+
+  #chat-window { width: calc(100vw - 3rem); }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 480px) {
+  .nav-actions button { padding: 0.35rem 0.7rem; font-size: 0.8rem; }
+
+  .hero-name { font-size: 2rem; }
+
+  .section-title { font-size: 1.4rem; }
+
+  #contact-form button { width: 100%; }
+}
