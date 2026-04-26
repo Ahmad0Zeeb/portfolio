@@ -40,6 +40,12 @@ const translations = {
 
     "nav.lang":             "SV",
     "nav.chat":             "Chat with me",
+    "nav.education":        "Education",
+    "nav.experience":       "Experience",
+    "nav.projects":         "Projects",
+    "edu.subtitle":         "Academic background and certifications",
+    "exp.subtitle":         "Work history and technical skills",
+    "footer.back_home":     "Back to home ↩",
   },
 
   sv: {
@@ -83,5 +89,11 @@ const translations = {
 
     "nav.lang":             "EN",
     "nav.chat":             "Chatta med mig",
+    "nav.education":        "Utbildning",
+    "nav.experience":       "Erfarenhet",
+    "nav.projects":         "Projekt",
+    "edu.subtitle":         "Akademisk bakgrund och certifieringar",
+    "exp.subtitle":         "Arbetshistorik och tekniska kompetenser",
+    "footer.back_home":     "Tillbaka till startsidan ↩",
   }
 };

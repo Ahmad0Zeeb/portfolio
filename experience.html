@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience — Ahmad Zeeb</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <a class="nav-logo" href="index.html">AZ</a>
+      <div class="nav-links">
+        <a href="education.html"  data-i18n="nav.education">Education</a>
+        <a href="experience.html" class="nav-active" data-i18n="nav.experience">Experience</a>
+        <a href="projects.html"   data-i18n="nav.projects">Projects</a>
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
+        <button id="lang-toggle"  aria-label="Switch language">SV</button>
+        <button id="chat-toggle"  aria-label="Open chat" data-i18n="nav.chat">Chat with me</button>
+      </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+      <div class="page-header-content">
+        <p class="page-breadcrumb"><a href="index.html">Home</a> / <span data-i18n="nav.experience">Experience</span></p>
+        <h1 data-i18n="nav.experience">Experience</h1>
+        <p data-i18n="exp.subtitle">Work history and technical skills</p>
+      </div>
+    </section>
+
+    <!-- ===== CONTENT ===== -->
+    <main class="page-main">
+      <div class="section-container">
+
+        <!-- Work Experience -->
+        <section class="content-section reveal">
+          <h2 class="content-section-title" data-i18n="drawer.experience">Experience</h2>
+
+          <div class="info-card timeline-card">
+            <div class="info-card-icon">💼</div>
+            <div class="info-card-body">
+              <h3>IT Support Technician</h3>
+              <p class="info-card-place">Atea AB, Växjö</p>
+              <p class="info-card-date">Feb 2023 – Aug 2023</p>
+              <ul class="info-card-list">
+                <li data-i18n="drawer.atea_1">Windows installations and factory resets</li>
+                <li data-i18n="drawer.atea_2">IT equipment preparation and maintenance</li>
+                <li data-i18n="drawer.atea_3">End-user support with high service quality</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="content-section reveal">
+          <h2 class="content-section-title" data-i18n="drawer.skills">Skills</h2>
+          <div class="skills-grid large">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Microsoft 365</span>
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">Networking</span>
+            <span class="skill-tag">Cybersecurity</span>
+          </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="content-section reveal">
+          <h2 class="content-section-title" data-i18n="drawer.languages">Languages</h2>
+          <div class="skills-grid large">
+            <span class="skill-tag">Arabic — Native</span>
+            <span class="skill-tag">English — Fluent</span>
+            <span class="skill-tag">Swedish — Fluent</span>
+          </div>
+        </section>
+
+        <!-- CV -->
+        <section class="content-section reveal">
+          <a href="assets/cv-ahmad-zeeb.pdf" download class="btn-primary" data-i18n="drawer.download_cv">Download CV</a>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+      <p data-i18n="footer.copy">&copy; 2025 Ahmad Zeeb. All rights reserved.</p>
+      <a href="index.html" id="back-to-top" data-i18n="footer.back_home">Back to home ↩</a>
+    </footer>
+
+    <!-- ===== CHATBOT ===== -->
+    <div id="chatbot-widget">
+      <div id="chat-window">
+        <div id="chat-header">
+          <span data-i18n="chat.title">Ask me about Ahmad</span>
+          <button id="close-chat" aria-label="Close chat">&times;</button>
+        </div>
+        <div id="chat-messages"></div>
+        <div id="chat-input-area">
+          <input type="text" id="chat-input" placeholder="Ask something..." data-i18n-placeholder="chat.placeholder" />
+          <button id="chat-send" aria-label="Send">&#9658;</button>
+        </div>
+      </div>
+      <button id="chat-fab" aria-label="Toggle chat">💬</button>
+    </div>
+
+    <!-- JS -->
+    <script src="data/translations.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

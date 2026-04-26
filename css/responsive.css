@@ -1,6 +1,8 @@
 /* ===== TABLET ===== */
 @media (max-width: 768px) {
-  #navbar { padding: 0 1rem; }
+  #navbar { padding: 0 1rem; flex-wrap: wrap; height: auto; gap: 0.5rem; padding: 0.6rem 1rem; }
+  .nav-links { order: 3; width: 100%; gap: 0.25rem; padding-bottom: 0.4rem; }
+  .nav-links a { font-size: 0.82rem; }
 
   .hero-buttons { flex-direction: column; align-items: center; }
   .hero-buttons button { width: 100%; max-width: 280px; }

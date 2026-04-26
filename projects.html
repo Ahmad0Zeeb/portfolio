@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahmad Zeeb — Portfolio</title>
+    <title>Projects — Ahmad Zeeb</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/animations.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -17,7 +17,7 @@
       <div class="nav-links">
         <a href="education.html"  data-i18n="nav.education">Education</a>
         <a href="experience.html" data-i18n="nav.experience">Experience</a>
-        <a href="projects.html"   data-i18n="nav.projects">Projects</a>
+        <a href="projects.html"   class="nav-active" data-i18n="nav.projects">Projects</a>
       </div>
       <div class="nav-actions">
         <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
@@ -26,48 +26,35 @@
       </div>
     </nav>
 
-    <!-- ===== HERO ===== -->
-    <section id="hero">
-      <div class="hero-content">
-        <p class="hero-greeting" data-i18n="hero.greeting">Hi, I'm</p>
-        <h1 class="hero-name">Ahmad Zeeb</h1>
-        <p class="hero-tagline">
-          <span data-i18n="hero.tagline_prefix">I'm a</span>
-          <span id="typed-text"></span>
-        </p>
-        <p class="hero-bio" data-i18n="hero.bio">
-          IT specialist with a Bachelor's in Computer Science, passionate about
-          cybersecurity and building reliable systems.
-        </p>
-        <div class="hero-buttons">
-          <a href="education.html" class="btn-primary" data-i18n="hero.cta_profile">View My Profile</a>
-          <button class="btn-secondary" id="open-chat" data-i18n="hero.cta_chat">Chat with me</button>
-        </div>
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+      <div class="page-header-content">
+        <p class="page-breadcrumb"><a href="index.html">Home</a> / <span data-i18n="nav.projects">Projects</span></p>
+        <h1 data-i18n="nav.projects">Projects</h1>
+        <p data-i18n="projects.subtitle">Things I've built</p>
       </div>
     </section>
 
-    <!-- ===== CONTACT ===== -->
-    <section id="contact">
+    <!-- ===== CONTENT ===== -->
+    <main class="page-main">
       <div class="section-container">
-        <h2 data-i18n="contact.title">Get In Touch</h2>
-        <p data-i18n="contact.subtitle">Have an opportunity or question? Send me a message.</p>
-        <form id="contact-form">
-          <input type="text"  name="name"    required placeholder="Your Name"    data-i18n-placeholder="contact.name" />
-          <input type="email" name="email"   required placeholder="Your Email"   data-i18n-placeholder="contact.email" />
-          <textarea           name="message" required placeholder="Your Message" data-i18n-placeholder="contact.message" rows="5"></textarea>
-          <button type="submit" class="btn-primary" data-i18n="contact.send">Send Message</button>
-        </form>
-        <div class="contact-links">
-          <a href="mailto:unisweden@gmail.com">unisweden@gmail.com</a>
-          <a href="tel:+46707849402">+46 707 849 402</a>
+
+        <div class="projects-grid reveal">
+          <!-- Project cards will be added here -->
         </div>
+
+        <div class="empty-state reveal">
+          <p class="empty-icon">🚧</p>
+          <p data-i18n="projects.coming_soon">More projects coming soon.</p>
+        </div>
+
       </div>
-    </section>
+    </main>
 
     <!-- ===== FOOTER ===== -->
     <footer id="footer">
       <p data-i18n="footer.copy">&copy; 2025 Ahmad Zeeb. All rights reserved.</p>
-      <a href="#hero" id="back-to-top" data-i18n="footer.back_top">Back to top ↑</a>
+      <a href="index.html" id="back-to-top" data-i18n="footer.back_home">Back to home ↩</a>
     </footer>
 
     <!-- ===== CHATBOT ===== -->
@@ -90,7 +77,6 @@
     <script src="data/translations.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/chatbot.js"></script>
-    <script src="js/contact.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

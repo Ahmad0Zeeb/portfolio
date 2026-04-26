@@ -47,17 +47,6 @@ function type() {
 document.addEventListener('DOMContentLoaded', () => setTimeout(type, 600));
 document.addEventListener('langchange', () => { charIndex = 0; deleting = false; });
 
-/* ===== DRAWER ===== */
-const drawer  = document.getElementById('side-drawer');
-const overlay = document.getElementById('drawer-overlay');
-
-function openDrawer()  { drawer?.classList.add('open');  overlay?.classList.add('active'); }
-function closeDrawer() { drawer?.classList.remove('open'); overlay?.classList.remove('active'); }
-
-document.getElementById('open-drawer')?.addEventListener('click', openDrawer);
-document.getElementById('close-drawer')?.addEventListener('click', closeDrawer);
-overlay?.addEventListener('click', closeDrawer);
-
 /* ===== SCROLL REVEAL ===== */
 const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
