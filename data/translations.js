@@ -1,0 +1,87 @@
+const translations = {
+  en: {
+    "hero.greeting":        "Hi, I'm",
+    "hero.tagline_prefix":  "I'm a",
+    "hero.bio":             "IT specialist with a Bachelor's in Computer Science, passionate about cybersecurity and building reliable systems.",
+    "hero.cta_profile":     "View My Profile",
+    "hero.cta_chat":        "Chat with me",
+
+    "drawer.education":     "Education",
+    "drawer.certifications":"Certifications",
+    "drawer.experience":    "Experience",
+    "drawer.skills":        "Skills",
+    "drawer.languages":     "Languages",
+    "drawer.completed":     "Completed",
+    "drawer.in_progress":   "In Progress",
+    "drawer.download_cv":   "Download CV",
+    "drawer.atea_1":        "Windows installations and factory resets",
+    "drawer.atea_2":        "IT equipment preparation and maintenance",
+    "drawer.atea_3":        "End-user support with high service quality",
+
+    "projects.title":       "Projects",
+    "projects.subtitle":    "Things I've built",
+    "projects.coming_soon": "More projects coming soon.",
+
+    "contact.title":        "Get In Touch",
+    "contact.subtitle":     "Have an opportunity or question? Send me a message.",
+    "contact.name":         "Your Name",
+    "contact.email":        "Your Email",
+    "contact.message":      "Your Message",
+    "contact.send":         "Send Message",
+    "contact.success":      "Message sent! I'll get back to you soon.",
+    "contact.error":        "Something went wrong. Please try again.",
+
+    "chat.title":           "Ask me about Ahmad",
+    "chat.placeholder":     "Ask something...",
+    "chat.welcome":         "Hi! I'm Ahmad's assistant. Ask me anything about his background, skills, or experience.",
+
+    "footer.copy":          "© 2025 Ahmad Zeeb. All rights reserved.",
+    "footer.back_top":      "Back to top ↑",
+
+    "nav.lang":             "SV",
+    "nav.chat":             "Chat with me",
+  },
+
+  sv: {
+    "hero.greeting":        "Hej, jag heter",
+    "hero.tagline_prefix":  "Jag är",
+    "hero.bio":             "IT-specialist med kandidatexamen i datateknik, brinner för cybersäkerhet och att bygga pålitliga system.",
+    "hero.cta_profile":     "Visa min profil",
+    "hero.cta_chat":        "Chatta med mig",
+
+    "drawer.education":     "Utbildning",
+    "drawer.certifications":"Certifieringar",
+    "drawer.experience":    "Erfarenhet",
+    "drawer.skills":        "Kompetenser",
+    "drawer.languages":     "Språk",
+    "drawer.completed":     "Avslutad",
+    "drawer.in_progress":   "Pågående",
+    "drawer.download_cv":   "Ladda ner CV",
+    "drawer.atea_1":        "Windows-installationer och fabriksåterställningar",
+    "drawer.atea_2":        "Förberedelse och underhåll av IT-utrustning",
+    "drawer.atea_3":        "Slutanvändarsupport med hög servicekvalitet",
+
+    "projects.title":       "Projekt",
+    "projects.subtitle":    "Saker jag har byggt",
+    "projects.coming_soon": "Fler projekt kommer snart.",
+
+    "contact.title":        "Kontakta mig",
+    "contact.subtitle":     "Har du ett erbjudande eller en fråga? Skicka ett meddelande.",
+    "contact.name":         "Ditt namn",
+    "contact.email":        "Din e-post",
+    "contact.message":      "Ditt meddelande",
+    "contact.send":         "Skicka meddelande",
+    "contact.success":      "Meddelandet skickat! Jag återkommer snart.",
+    "contact.error":        "Något gick fel. Försök igen.",
+
+    "chat.title":           "Fråga mig om Ahmad",
+    "chat.placeholder":     "Ställ en fråga...",
+    "chat.welcome":         "Hej! Jag är Ahmads assistent. Fråga mig om hans bakgrund, kompetenser eller erfarenhet.",
+
+    "footer.copy":          "© 2025 Ahmad Zeeb. Alla rättigheter förbehållna.",
+    "footer.back_top":      "Tillbaka till toppen ↑",
+
+    "nav.lang":             "EN",
+    "nav.chat":             "Chatta med mig",
+  }
+};
