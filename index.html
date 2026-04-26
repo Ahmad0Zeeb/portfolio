@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad Zeeb — Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <div class="nav-logo">AZ</div>
+      <div class="nav-actions">
+        <button id="lang-toggle" aria-label="Switch language">EN / SV</button>
+        <button id="chat-toggle" aria-label="Open chat">Chat with me</button>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-greeting" data-i18n="hero.greeting">Hi, I'm</p>
+        <h1 class="hero-name">Ahmad Zeeb</h1>
+        <p class="hero-tagline">
+          <span data-i18n="hero.tagline_prefix">I'm a</span>
+          <span id="typed-text"></span>
+        </p>
+        <p class="hero-bio" data-i18n="hero.bio">
+          IT specialist with a Bachelor's in Computer Science, passionate about
+          cybersecurity and building reliable systems.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-primary" id="open-drawer" data-i18n="hero.cta_profile">
+            View My Profile
+          </button>
+          <button class="btn-secondary" id="open-chat" data-i18n="hero.cta_chat">
+            Chat with me
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SIDE DRAWER ===== -->
+    <div id="drawer-overlay"></div>
+    <aside id="side-drawer">
+      <button id="close-drawer" aria-label="Close drawer">&times;</button>
+
+      <div class="drawer-section">
+        <h2 data-i18n="drawer.education">Education</h2>
+        <div class="drawer-card">
+          <h3>BSc Software Engineering (Computer Science)</h3>
+          <p>Linnéuniversitetet, Växjö</p>
+          <span class="tag" data-i18n="drawer.completed">Completed</span>
+        </div>
+        <div class="drawer-card">
+          <h3>International Baccalaureate</h3>
+          <p>Haganässkolan, Älmhult</p>
+          <span class="tag" data-i18n="drawer.completed">Completed</span>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <h2 data-i18n="drawer.certifications">Certifications</h2>
+        <div class="drawer-card">
+          <h3>MD-102 — Endpoint Administrator</h3>
+          <span class="tag tag-progress" data-i18n="drawer.in_progress">In Progress</span>
+        </div>
+        <div class="drawer-card">
+          <h3>CCNA — Cisco Certified Network Associate</h3>
+          <span class="tag tag-progress" data-i18n="drawer.in_progress">In Progress</span>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <h2 data-i18n="drawer.experience">Experience</h2>
+        <div class="drawer-card">
+          <h3>IT Support Technician</h3>
+          <p>Atea AB, Växjö</p>
+          <p class="date">Feb 2023 – Aug 2023</p>
+          <ul>
+            <li data-i18n="drawer.atea_1">Windows installations and factory resets</li>
+            <li data-i18n="drawer.atea_2">IT equipment preparation and maintenance</li>
+            <li data-i18n="drawer.atea_3">End-user support with high service quality</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <h2 data-i18n="drawer.skills">Skills</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Flutter</span>
+          <span class="skill-tag">Microsoft 365</span>
+          <span class="skill-tag">Windows</span>
+          <span class="skill-tag">Networking</span>
+          <span class="skill-tag">Cybersecurity</span>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <h2 data-i18n="drawer.languages">Languages</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Arabic — Native</span>
+          <span class="skill-tag">English — Fluent</span>
+          <span class="skill-tag">Swedish — Fluent</span>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <a href="assets/cv-ahmad-zeeb.pdf" download class="btn-primary" data-i18n="drawer.download_cv">
+          Download CV
+        </a>
+      </div>
+    </aside>
+
+    <!-- ===== CHATBOT ===== -->
+    <div id="chatbot-widget">
+      <div id="chat-window">
+        <div id="chat-header">
+          <span data-i18n="chat.title">Ask me about Ahmad</span>
+          <button id="close-chat" aria-label="Close chat">&times;</button>
+        </div>
+        <div id="chat-messages"></div>
+        <div id="chat-input-area">
+          <input
+            type="text"
+            id="chat-input"
+            placeholder="Ask something..."
+            data-i18n-placeholder="chat.placeholder"
+          />
+          <button id="chat-send" aria-label="Send">&#9658;</button>
+        </div>
+      </div>
+      <button id="chat-fab" aria-label="Toggle chat">💬</button>
+    </div>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="section-container">
+        <h2 data-i18n="contact.title">Get In Touch</h2>
+        <p data-i18n="contact.subtitle">
+          Have an opportunity or question? Send me a message.
+        </p>
+        <form id="contact-form">
+          <input type="text" name="name" required
+            placeholder="Your Name"
+            data-i18n-placeholder="contact.name" />
+          <input type="email" name="email" required
+            placeholder="Your Email"
+            data-i18n-placeholder="contact.email" />
+          <textarea name="message" rows="5" required
+            placeholder="Your Message"
+            data-i18n-placeholder="contact.message"></textarea>
+          <button type="submit" class="btn-primary" data-i18n="contact.send">
+            Send Message
+          </button>
+        </form>
+        <div class="contact-links">
+          <a href="mailto:unisweden@gmail.com">unisweden@gmail.com</a>
+          <a href="tel:+46707849402">+46 707 849 402</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+      <p data-i18n="footer.copy">&copy; 2025 Ahmad Zeeb. All rights reserved.</p>
+      <a href="#hero" id="back-to-top" data-i18n="footer.back_top">Back to top ↑</a>
+    </footer>
+
+    <!-- JS -->
+    <script src="data/translations.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
